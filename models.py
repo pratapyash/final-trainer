@@ -2,9 +2,8 @@ import torch
 import torch.nn as nn
 
 import pickle
+import nemo
 import nemo.collections.asr as nemo_asr
-
-import pickle
 
 
 def getASRModel(language: str) -> nn.Module:
